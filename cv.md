@@ -31,6 +31,8 @@ ___
 ***There is experience on educational projects, all the developments on my public account on github pages [https://dsv-sergey.github.io](https://dsv-sergey.github.io/)***
 ___
 ## Education:
+
+
 2016
 : * **Designing web pages for programmers**
 *High-Tech Park Education Center, Front-end Developer*
