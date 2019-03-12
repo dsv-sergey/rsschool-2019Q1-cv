@@ -1,0 +1,168 @@
+body {
+  background-color: #bac48d;
+}
+
+.container {
+  max-width: 1024px;
+  min-width: 480px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.header,
+.contacts,
+.summary,
+.skills,
+.code,
+.experience,
+.education,
+.lang {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #24292e;
+}
+
+.header,
+.header__title-link + span {
+  border-bottom: 2px solid #c68818;
+  font-weight: 600;
+}
+
+.header__title-link a {
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.header__title-link a:hover,
+.contacts__list a:hover,
+.code__text em a:hover,
+.experience__text strong em a:hover {
+  text-decoration: underline;
+}
+
+.horisontal-line {
+  display: block;
+  width: 100%;
+  height: 10px;
+  border-bottom: 1px solid #c68818;
+}
+
+.header__name {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.header__img {
+  margin-top: 1em;
+}
+
+.header__vocation {
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+
+.contacts,
+.summary,
+.skills,
+.code,
+.experience,
+.education,
+.lang {
+  padding: 1.75em 0;
+  border-bottom: 2px solid #c68818;
+}
+
+.contacts__title,
+.summary__title,
+.skills__title,
+.code__title,
+.experience__title,
+.education__title,
+.lang__title {
+  font-weight: 600;
+  font-size: 1.75em;
+}
+
+.contacts__list .list__item {
+  padding: 0.2em 0;
+}
+
+.contacts__list {
+  font-size: 1em;
+  line-height: 1.5;
+  padding-top: 1em;
+  font-weight: 500;
+}
+
+.contacts__list strong,
+.experience__text strong,
+.descripion-list__text strong {
+  font-weight: 600;
+}
+
+.contacts__list a,
+.code__text em a,
+.experience__text strong em a {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.summary__text {
+  font-size: 1em;
+  line-height: 1.5;
+  padding-top: 1.25em;
+}
+
+.skills__list {
+  padding: 1em 0 0 2em;
+  list-style-type: disc;
+}
+
+.skills__list li {
+  padding: 0.3em 0;
+}
+
+.skills__list li strong {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.code__text {
+  font-weight: 600;
+  font-size: 1.25em;
+  padding-top: 1em;
+}
+
+.code__text em,
+.experience__text strong em,
+.descripion-list__text em {
+  font-style: italic;
+}
+
+.experience__text {
+  padding-top: 1em;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.education__descripion-list {
+  padding-top: 0.5em;
+}
+
+.descripion-list__title {
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: 600;
+  padding: 1em 0;
+}
+
+.descripion-list__text ul li {
+  list-style-type: disc;
+  margin-left: 3em;
+}
+
+.descripion-list__text {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
